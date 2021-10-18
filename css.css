@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Slab:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Dancing Script", cursive;
+
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  background-color: whitesmoke;
+  height: 100vh;
+  width: 100vw;
+}
+.bigbox {
+  width: 1800px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.left {
+  width: 300px;
+  height: 680px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 5px -5px 61px 0px #b5b6b7;
+  margin-right: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 20px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.mainmusic {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+
+.mainpic {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  box-shadow: 5px -5px 61px 0px rgb(61, 185, 243);
+  margin-top: -20px;
+}
+
+.Tyler {
+  text-align: center;
+}
+
+.Tyler > h5 {
+  opacity: 0.5;
+  position: relative;
+  top: -40px;
+}
+.shuffle {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.blackbutton {
+  width: 90px;
+  height: 35px;
+  background-color: black;
+  border-radius: 30px;
+  text-align: center;
+  color: whitesmoke;
+  padding: 10px;
+  border-bottom: whitesmoke;
+  font-size: smaller;
+}
+.heart {
+  border-bottom: whitesmoke;
+  border-radius: 30px;
+}
+.number {
+  opacity: 0.5;
+}
+.LastPlaylist {
+  position: relative;
+  left: -60px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.Tyler {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: -10px;
+}
+.album {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  display: flex;
+}
+h4 {
+  font-size: 10px;
+  opacity: 0.5;
+  position: relative;
+  bottom: -10px;
+}
+h3 {
+  font-size: 15px;
+}
+
+.Tyler > i {
+  position: relative;
+  left: 20px;
+  opacity: 0.5;
+}
+
+.michi {
+  text-align: left;
+}
+
+.inplay {
+  width: 250px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  text-align: left;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: -20px;
+}
+
+.inplay {
+  display: fixed;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  margin: 30px;
+  top: -20px;
+  left: 35px;
+}
+
+.last {
+  text-align: left;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  margin-top: -15px;
+  padding-left: 20px;
+}
+.last > h4 {
+  font-size: 8px;
+}
+.last > h3 {
+  position: relative;
+  top: -5px;
+  font-size: 15px;
+}
+
+.very {
+  margin-top: -15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100px;
+  height: 60px;
+  font-weight: 100px;
+}
+.right {
+  width: 300px;
+  height: 680px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 5px -5px 61px 0px #b5b6b7;
+  position: absolute;
+  right: 400px;
+  bottom: 120px;
+}
+.mainimage {
+  width: 230px;
+  height: 230px;
+  position: relative;
+  top: 60px;
+  left: 18px;
+  border-radius: 35px;
+  box-shadow: 5px -5px 61px 0px rgb(243, 177, 221);
+}
+
+.right > header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 20px;
+}
+.musictitle {
+  position: relative;
+  top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.musictitle > h4 {
+  position: relative;
+  top: -20px;
+  font-size: 15px;
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  font-size: 25px;
+}
+
+input {
+  margin-top: 50px;
+  background-color: gray;
+  border-color: transparent;
+  color: black;
+  cursor: none;
+}
+.lastmain {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  position: relative;
+  top: 70px;
+}
+
+.lastmain > i:first-child {
+  color: grey;
+}
+
+.lastmain > i:last-child {
+  color: grey;
+}
+
+#playyy {
+  position: relative;
+  top: -20px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
